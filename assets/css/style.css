@@ -1,8 +1,8 @@
 /* navbar */
 
 .avion {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .z-1 {
@@ -10,12 +10,22 @@
 }
 
 
-/* Article Quienes somos */
+/* section presentacion */
 
-.presentacion {
+.fondo-negro {
     background: black;
 }
 
 .border-width {
     border-top: 2px solid;
+}
+
+
+/*section Destacados */
+
+
+/* se corrije el alto de las imagenes de las tarjetas */
+
+.cards-height {
+    height: 158px;
 }

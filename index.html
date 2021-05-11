@@ -23,14 +23,13 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link text-white" href="#">Inicio<span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Quienes Somos</a>
+                <a class="nav-link text-white" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item d-none d-md-block">
+                <a class="nav-link" href="#presentacion">Quienes Somos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#Destacados">Destacados</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contactos</a>
@@ -40,7 +39,7 @@
     </div>
 </nav>
 
-<!-- Se utiliza un carrousel de bootstrap 4.6 -->
+<!-- Se utiliza un carousel de bootstrap 4.6 -->
 <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -63,8 +62,8 @@
     </button>
 </div>
 
-<!-- Se crea la seccion de articulo-->
-<section class="presentacion pb-5">
+<!-- Se crea la seccion de articulo row y col de bootstrap 4.6-->
+<section id="presentacion" class="fondo-negro pb-5 d-none d-md-block">
     <div class="container text-white ">
         <h2 class="text-center pt-4">¿Quiénes somos?</h2>
         <hr class="border-primary border-width">
@@ -100,6 +99,62 @@
     </div>
 </section>
 
+<!-- Se crea la sección destacados mediante tarjetas de bootstrap 4.6 -->
+<section id="Destacados" class="fondo-negro text-white">
+    <div class="container">
+        <h2 class="text-center pt-4">Destacados</h2>
+        <hr class="border-primary border-width">
+        <!-- se aplica la grid de bootsrap para crear las tarjetas, se utiliza dimensiones distintas para md y lg-->
+        <div class="row py-4">
+            <!-- tarjeta 1 -->
+            <div class="col-md-6 col-lg-3 pb-3">
+                <div class="card h-100 p-0 bg-primary">
+                    <img class="cards-height" src="/assets/img/card1.jpg" class="card-img-top" alt="card1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur reprehenderit blanditiis ex excepturi repellendus, earum atque praesentium adipisci eos totam quisquam exercitationem, iste harum accusamus. Quo, officia magnam?
+                            Dolores, dolorem!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta 2  -->
+            <div class="col-md-6 col-lg-3 pb-3">
+                <div class="card h-100 p-0 bg-primary">
+                    <img class="cards-height" src="/assets/img/card2.jpg" class="card-img-top" alt="card2">
+                    <div class="card-body">
+                        <h5 class="card-title">consectetur adipisicing elit</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nulla molestias cupiditate non dolores ullam? Officia perspiciatis, nemo laudantium, dolor aliquid amet sapiente beatae cupiditate hic labore dignissimos. Optio,
+                            velit..
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- tarjeta 3  -->
+            <div class="col-md-6 col-lg-3 pb-3">
+                <div class="card h-100 p-0 bg-primary">
+                    <img class="cards-height" src="assets/img/card3.jpg" class="card-img-top" alt="card3">
+                    <div class="card-body">
+                        <h5 class="card-title">sed do eiusmod tempor incididunt ut labore</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor doloribus soluta optio nihil ullam rerum. Deleniti modi magni ipsa ab, dicta explicabo odit dolorem ad fugit soluta vel tempore accusantium..</p>
+                    </div>
+                </div>
+            </div>
+            <!-- tarjeta 4  -->
+            <div class="col-md-6 col-lg-3 pb-3">
+                <div class="card h-100 p-0 bg-primary">
+                    <img class="cards-height" src="/assets/img/card4.jpg" class="card-img-top" alt="card4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ut enim ad minim veniam</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia sunt magnam quae laborum soluta. Doloremque optio amet ducimus dolorum ad, sed ipsa. Quos eos ullam iusto eius possimus praesentium!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 
 <body>
 
