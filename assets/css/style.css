@@ -10,4 +10,12 @@
 }
 
 
-/* carrusel */
+/* Article Quienes somos */
+
+.presentacion {
+    background: black;
+}
+
+.border-width {
+    border-top: 2px solid;
+}
