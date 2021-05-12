@@ -1,3 +1,14 @@
+/* Cambios globales*/
+
+.fondo-negro {
+    background: black;
+}
+
+.border-width {
+    border-top: 2px solid;
+}
+
+
 /* navbar */
 
 .avion {
@@ -10,17 +21,6 @@
 }
 
 
-/* section presentacion */
-
-.fondo-negro {
-    background: black;
-}
-
-.border-width {
-    border-top: 2px solid;
-}
-
-
 /*section Destacados */
 
 
@@ -28,4 +28,20 @@
 
 .cards-height {
     height: 158px;
+}
+
+
+/* section footer */
+
+footer h1 {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    footer h1 {
+        font-size: 40px;
+    }
+}
+
+
 }
