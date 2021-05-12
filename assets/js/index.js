@@ -14,7 +14,7 @@ $(document).ready(function() {
 });
 
 
-// Activiacion de los toogle de bootstrap
+// Activiacion de los toogle de bootstrap para el next y el previus
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
