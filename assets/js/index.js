@@ -6,7 +6,7 @@ $(document).ready(function() {
         var smooth = this.hash;
 
         $("html").animate({
-                scrollTop: $(smooth).offset().top,
+                scrollTop: $(smooth).offset().top - 59,
             },
             800
         );
