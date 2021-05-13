@@ -1,6 +1,6 @@
-// smooth scroll
+// smooth scroll para realiar el efecto de movimiento lento hacia las secciones
 $(document).ready(function() {
-    $("a").click(function(event) {
+    $(".navbar a").click(function(event) {
         event.preventDefault();
 
         var smooth = this.hash;

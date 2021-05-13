@@ -8,13 +8,16 @@ body {
     background: black;
 }
 
+.fondo-celeste {
+    background-color: rgb(23, 163, 184)
+}
+
+
+/* etiquetas hr */
+
 .border-width {
     border-top: 2px solid;
     color: rgb(23, 163, 184);
-}
-
-.fondo-celeste {
-    background-color: rgb(23, 163, 184)
 }
 
 
