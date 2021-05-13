@@ -18,3 +18,17 @@ $(document).ready(function() {
 $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 })
+
+
+// Cambio de color nav bar al mover el scroll
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+            $(".color-navbar").css("background", "black");
+        } else {
+            $(".color-navbar").css("background", "");
+        }
+    })
+})

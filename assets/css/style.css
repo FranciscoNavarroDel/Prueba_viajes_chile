@@ -10,6 +10,11 @@ body {
 
 .border-width {
     border-top: 2px solid;
+    color: rgb(23, 163, 184);
+}
+
+.fondo-celeste {
+    background-color: rgb(23, 163, 184)
 }
 
 
@@ -30,6 +35,10 @@ body {
     height: 158px;
 }
 
+.card-body p {
+    font-size: 14px;
+}
+
 
 /* section footer */
 
@@ -39,6 +48,6 @@ footer h1 {
 
 @media screen and (min-width: 768px) {
     footer h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 }
