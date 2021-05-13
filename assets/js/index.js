@@ -1,4 +1,4 @@
-// smooth scroll para realiar el efecto de movimiento lento hacia las secciones
+// smooth scroll para realizar el efecto de movimiento lento hacia las secciones
 $(document).ready(function() {
     $(".navbar a").click(function(event) {
         event.preventDefault();
